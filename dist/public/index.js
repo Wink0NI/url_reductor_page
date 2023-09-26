@@ -1,4 +1,4 @@
-const API_URL = "https://young-beyond-96622.herokuapp.com/api/shorten";
+const API_URL = "https://url-shortener-plus-e0bd230d36c7.herokuapp.com/api/shorten";
 
 function copy(target) {
   // Element to select
