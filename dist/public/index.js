@@ -1,4 +1,4 @@
-const API_URL = "https://ephemeral-gaufre-dfc573.netlify.app/api/shorten"
+const API_URL = "https://url-shortener-plus-e0bd230d36c7.herokuapp.com/api/shorten"
     "use strict";
     const textArea = document.createElement("textarea");
     function copyToClipboard(text) {
