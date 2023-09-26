@@ -1,4 +1,4 @@
-const API_URL = "https://url-shortener-plus-e0bd230d36c7.herokuapp.com/api/shorten"
+const API_URL = "https://shortener-extra-0f3c9c5b4cf1.herokuapp.com/api/shorten"
     "use strict";
     const textArea = document.createElement("textarea");
     function copyToClipboard(text) {
