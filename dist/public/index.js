@@ -57,7 +57,7 @@ shortenForm.addEventListener("submit", async (e) => {
     let response = await request.json();
 
     if (response.short) {
-      putUrlOnThePage(response.short);
+      putUrlOnThePage(response.lien_raccourci);
     } else {
       content.innerHTML = `<h2>${response.message}</h2>`;
     }
