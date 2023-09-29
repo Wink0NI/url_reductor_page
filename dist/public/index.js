@@ -1,4 +1,4 @@
-const API_URL = "https://shortener-extra-0f3c9c5b4cf1.herokuapp.com/api/shorten"
+const API_URL = "https://cosmic-north-marble.glitch.me/api/shorten"
     "use strict";
     const textArea = document.createElement("textarea");
     function copyToClipboard(text) {
