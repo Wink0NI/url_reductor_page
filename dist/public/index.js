@@ -15,14 +15,15 @@ function copyToClipboard(text) {
     });
 }
 
-const sectionContainer = document.querySelector('.section div.url-responses');
+let sectionContainer = document.querySelector('.section div.url-responses');
 
 function createSection(link, copyable = true) {
     // Créer les éléments HTML
     if (!sectionContainer) {
         const divContainer = document.createElement('div');
         divContainer.classList.add("box", "url-responses");
-        document.body.appendChild(divContainer)
+        document.querySelector("body>section.section>div.container").appendChild(divContainer);
+        sectionContainer = document.querySelector(".section div.url-responses")
     }
 
     const divNotification = document.createElement('div');
