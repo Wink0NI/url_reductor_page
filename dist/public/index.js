@@ -19,9 +19,11 @@ const sectionContainer = document.querySelector('.section div.url-responses');
 
 function createSection(link, copyable = true) {
     // Créer les éléments HTML
-
-
-
+    if (!sectionContainer) {
+        const divContainer = document.createElement('div');
+        divContainer.classList.add("box", "url-responses");
+        document.body.appendChild(divContainer)
+    }
 
     const divNotification = document.createElement('div');
     divNotification.id = 'shortURL';
